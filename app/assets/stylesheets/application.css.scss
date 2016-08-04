@@ -52,14 +52,14 @@ p.alert, p.notice {
 	text-transform: uppercase;
 }
 .navbar-default {
-	background-color: #fff;
+	background-color: #2c3e50;
 	padding-bottom: 5px;
 	padding-top: 5px;
 
 	.navbar-nav > li > a {
-		color: #222;
+		color: #ecf0f1;
 		&:hover {
-			color: darken(#9b59b6, 5%);
+			color: darken(#F62459, 5%);
 			transition: 0.5s;
 		}
 	}
@@ -67,26 +67,26 @@ p.alert, p.notice {
 	.navbar-header {
 
 		.navbar-brand {
-			color: #222;
+			color: #F62459;
 			letter-spacing: 1.4px;
 		}
 
 	}
 
 	.dropdown-menu > li > a:hover {
-		background-color: darken(#9b59b6, 5%);
+		background-color: darken(#F62459, 5%);
 		color: #fff;
 	}
 
 	.navbar-nav > .open > a, .navbar-nav > .open > a:hover, .navbar-nav > .open > a:focus {
-		background-color: darken(#9b59b6, 5%);
+		background-color: darken(#F62459, 5%);
 		color: #fff;	
 	}
 
 }
 
 .dropdown-menu > .active > a {
-	background-color: #9b59b6;
+	background-color: #F62459;
 	color: #fff;
 }
 
@@ -94,16 +94,16 @@ p.alert, p.notice {
 /* Button/link styles */
 
 .btn-custom {
-	color: darken(#9b59b6, 5%);
+	color: darken(#F62459, 5%);
 	background-color: #fff;
-	border: 1px solid darken(#9b59b6, 5%);
+	border: 1px solid darken(#F62459, 5%);
     margin-top: 10px;
 	padding: 8px 20px;
 	border-radius: 5px;
 	font-family: 'Ubuntu', sans-serif;
 	&:hover {
 		text-decoration: none;
-		background-color: darken(#9b59b6, 5%);
+		background-color: darken(#F62459, 5%);
 		color: #fff;
 		transition: 0.5s;
 	}
